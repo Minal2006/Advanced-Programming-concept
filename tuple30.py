@@ -6,12 +6,11 @@ patients = (
     (105, "Rohan", 35, "O-")
 )
 
-# 1. Display all records
 print("All Patient Records:")
 for patient in patients:
     print(patient)
 
-# 2. Search patient by ID
+
 search_id = 103
 found = False
 
@@ -23,10 +22,9 @@ for patient in patients:
 if not found:
     print("\nPatient not found")
 
-# 3. Count total number of patients
+
 print("\nTotal number of patients =", len(patients))
 
-# 4. Display patients with specific blood group
 blood_group = "A+"
 
 print("\nPatients with blood group", blood_group, ":")
