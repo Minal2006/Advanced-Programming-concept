@@ -1,0 +1,16 @@
+
+
+from string_utils import count_vowels, reverse_string, is_palindrome, count_words, remove_spaces
+
+text = input("Enter a string: ")
+
+print("\nNumber of vowels:", count_vowels(text))
+print("Reversed string:", reverse_string(text))
+
+if is_palindrome(text):
+    print("The string is Palindrome.")
+else:
+    print("The string is not Palindrome.")
+
+print("Number of words:", count_words(text))
+print("String without spaces:", remove_spaces(text))
