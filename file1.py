@@ -1,0 +1,10 @@
+name=input("enter the nanme:")
+rollno=input("enter the rollno :")
+brach=input("enter the brach:")
+sem=input("enter the sem:")
+with open("file1.txt","w") as file:
+    file.write("name:"+name+"\n")
+    file.write("rollno:"+rollno+"\n")
+    file.write("brach:"+brach+"\n")
+    file.write("sem:"+sem+"\n")
+print("successfully added the record")    

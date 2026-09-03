@@ -1,0 +1,10 @@
+
+file = open("file1.txt", "a")
+name = input("Enter student name: ")
+roll_no = input("Enter roll number: ")
+marks = input("Enter marks: ")
+file.write("\nName: " + name)
+file.write("\nRoll No: " + roll_no)
+file.write("\nMarks: " + marks)
+file.close()
+print("Student information appended successfully.")

@@ -1,0 +1,7 @@
+file = open("file1.txt", "r")
+text = file.read()
+file.close()
+output = open("uppercase.txt", "w")
+output.write(text.upper())
+output.close()
+print("File created successfully in uppercase.")
